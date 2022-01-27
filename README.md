@@ -12,7 +12,7 @@ and rewritten to compatible with image.Image interface.
 ## Usage
 
 ```
-import "github.com/pixiv/go-libjpeg/jpeg"
+import "github.com/pashifika/go-libjpeg/jpeg"
 
 func main() {
     // Decoding JPEG into image.Image
@@ -47,7 +47,7 @@ See [test code](./jpeg/jpeg_test.go) to read full features.
 - Raw JPEG decoding in YCbCr color.
 - Decoding with color conversion into RGB/RGBA (RGBA conversion is only supported with libjpeg-turbo).
 - Scaled decoding.
-- Encoding from some color models (YCbCr, RGB and RGBA).
+- Encoding from some color models (YCbCr, RGB, RGBA and NRGBA).
 
 ## Benchmark
 
